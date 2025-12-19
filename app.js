@@ -1,9 +1,7 @@
 const quotes = [
-  "quote 1",
-  "quote 2",
-  "quote 3",
-  "quote 4",
-  "quote 5"
+  "You are loved more than you know.",
+  "Every day you inspire me.",
+  "I’m so proud to be your daughter."
 ];
 
 const photos = [
@@ -12,13 +10,16 @@ const photos = [
   "/photos/3.jpeg"
 ];
 
-const quote = quotes[Math.floor(Math.random() * quote.length)];
-const photo = photos[Math.floor(Math.random() * photo.length)];
+// Pick random quote and photo AFTER defining the arrays
+const quote = quotes[Math.floor(Math.random() * quotes.length)];
+const photo = photos[Math.floor(Math.random() * photos.length)];
 
+// Set content
 document.getElementById("quote").textContent = quote;
 document.getElementById("photo").src = photo;
 
-//Register service worker
-if("serviceWorker" in navigator) {
+// Optional: register service worker
+if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("sw.js");
 }
+
