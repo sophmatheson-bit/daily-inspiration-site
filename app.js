@@ -7,9 +7,9 @@ const quotes = [
 ];
 
 const photos = [
-  "photos/1.jpg",
-  "photos/2.jpg",
-  "photos/3.jpg"
+  "photos/1.jpeg",
+  "photos/2.jpeg",
+  "photos/3.jpeg"
 ];
 
 const quote = quotes[Math.floor(Math.random() * quote.length)];
