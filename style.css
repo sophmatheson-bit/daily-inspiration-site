@@ -1,29 +1,34 @@
+html, body {
+  height: 100%;            /* make full height */
+  margin: 0;               /* remove default margin */
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #f7f7f7;
   display: flex;
-  justify-context: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical centering */
+  text-align: center;      /* center text inside container */
+  font-family: sans-serif;
+  background-color: #f0f0f0; /* optional background */
 }
 
 .container {
-  text-align: center;
-  max-width: 90%;
+  display: flex;
+  flex-direction: column;  /* stack image on top of quote */
+  align-items: center;     /* horizontal centering */
+  gap: 20px;               /* space between image and quote */
 }
 
 img {
-  display: block;
-  margin: 0 auto 20px;
-  width: 100%;          /* scale to container width */
-  height: auto;         /* maintain aspect ratio */
-  max-height: 60vh;     /* optional: limits image height */
-  object-fit: contain;   /* keeps whole image visible */
+  width: 80%;              /* responsive width */
+  max-width: 500px;        /* optional max width */
+  height: auto;
+  object-fit: contain;     /* prevents cropping */
   border-radius: 16px;
 }
 
-p {
-  font-size: 1.4rem;
-  color: #333;
+#quote {
+  font-size: 1.5rem;
+  max-width: 80%;
 }
+
