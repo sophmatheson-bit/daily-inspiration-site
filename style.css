@@ -14,7 +14,9 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;           /* fill container width */
+  height: auto;          /* scale height automatically */
+  object-fit: contain;   /* keeps the whole image visible */
   border-radius: 16px;
   margin-bottom: 20px;
 }
