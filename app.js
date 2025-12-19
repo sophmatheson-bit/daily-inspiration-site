@@ -13,10 +13,10 @@ const photos = [
 ];
 
 const quote = quotes[Math.floor(Math.random() * quote.length)];
-const photo = photos[Math.floor(Math.random() * photo.length)};
+const photo = photos[Math.floor(Math.random() * photo.length)];
 
 document.getElementById("quote").textContent = quote;
-document.getElementById("phot").src = photo;
+document.getElementById("photo").src = photo;
 
 //Register service worker
 if("serviceWorker" in navigator) {
