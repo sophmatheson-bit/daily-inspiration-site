@@ -5,9 +5,9 @@ const FILES = [
   "./style.css",
   "./app.js",
   "./manifest.json",
-  "./photos/1.jpg",
-  "./photos/2.jpg",
-  "./photos/3.jpg"
+  "./photos/1.jpeg",
+  "./photos/2.jpeg",
+  "./photos/3.jpeg"
 ];
 
 self.addEventListener("install", event => {
