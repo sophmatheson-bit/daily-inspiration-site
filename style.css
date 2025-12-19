@@ -14,11 +14,13 @@ body {
 }
 
 img {
-  width: 100%;           /* fill container width */
-  height: auto;          /* scale height automatically */
-  object-fit: contain;   /* keeps the whole image visible */
+  display: block;
+  margin: 0 auto 20px;
+  width: 100%;          /* scale to container width */
+  height: auto;         /* maintain aspect ratio */
+  max-height: 60vh;     /* optional: limits image height */
+  object-fit: contain;   /* keeps whole image visible */
   border-radius: 16px;
-  margin-bottom: 20px;
 }
 
 p {
