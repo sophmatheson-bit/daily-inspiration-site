@@ -19,7 +19,22 @@ const photos = [
   "/photos/13.jpeg",
   "/photos/14.jpeg",
   "/photos/15.jpeg",
-  "/photos/16.jpeg"
+  "/photos/16.jpeg",
+  "/photos/17.jpeg",
+  "/photos/18.jpeg",
+  "/photos/19.jpeg",
+  "/photos/20.jpeg",
+  "/photos/21.jpeg",
+  "/photos/22.jpeg",
+  "/photos/23.jpeg",
+  "/photos/24.jpeg",
+  "/photos/25.jpeg",
+  "/photos/26.jpeg",
+  "/photos/27.jpeg",
+  "/photos/28.jpeg",
+  "/photos/29.jpeg",
+  "/photos/30.jpeg",
+  "/photos/31.jpeg"
 ];
 
 // Pick random quote and photo AFTER defining the arrays
