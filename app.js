@@ -1,5 +1,4 @@
 const quotes = [
-  "\"Death is not the greatest loss in life. The greatest loss is what dies inside us while we live.\" ~ Norman Cousins",
   "\"We should care as much about well-doing as well-being. I want to live in a world that values purpose as much as pleasure, contribution as much as contentment, honesty as much as excitement, and justice as much as joy.\" ~ Adam Grant",
   "\"Do you the best you can until you know better. Then when you know better, do better.\" ~ Maya Angelou",
   "\"There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.\" ~ Ernest Hemingway",
@@ -39,7 +38,7 @@ const quotes = [
   "\"If I cannot do great things, I can do SMALL things in a great way.\" ~ Martin Luther King Jr.",
   "\"A person who never made a mistake never tried anything new.\" ~ Albert Einstein",
   "\"Challenges are gifts that force us to search for a new center of gravity. Don't fight them. Just find a new way to stand.\" ~ Oprah Winfrey",
-  "\"It ain't about how hard you hit. It's about hard you can get hit and keep moving forward.\" ~ Sylvester Stallone as Rocky Balboa",
+  "\"It ain't about how hard you hit. It's about how hard you can get hit and keep moving forward.\" ~ Sylvester Stallone as Rocky Balboa",
   "\"It is our attitude at the beginning of a difficult task which, more than anything else, will affect its successful outcome.\" ~ William James",
   "\"Some people look for a beautiful place. Others make a place beautiful.\" ~ Hazrat Inayat Khan",
   "\"If you want to lift yourself up, lift up someone else.\" ~ Booker T. Washington",
@@ -49,8 +48,20 @@ const quotes = [
   "\"We must be willing to let go of the life we planned so as to have the life that is waiting for us.\" ~ Joseph Campbell",
   "\"Remember that the airplane takes off against the wind, not with it.\" ~ Henry Ford",
   "\"The most wasted of days is one without laughter.\" ~ E.E. Cummings",
-  "\"Sometimes you will never know the value of a moment, until it becomes a memory.\" ~ Dr. Seuss",
   "\"My least favorite phrase in the English language is 'I don't care.'\" ~ James Caan",
+  "\"The family is one of nature's masterpieces.\" ~ George Santayana",
+  "\"A happy family is but an earlier heaven.\" ~ George Bernard Shaw",
+  "\"Feelings of worth can flourish only in an atmosphere where individual differences are appreciated, mistakes are tolerated, communication is open, and rules are flexible - the kind of atmosphere that is found in a nurturing family.\" ~ Virginia Satir",
+  "\"You leave home to seek your fortune and, when you get it, you go home and share it with your family.\" ~ Anita Baker",
+  "\"Flying is learning how to throw yourself at the ground and miss.\" ~ Douglas Adams",
+  "\"Everyone is a genius, but if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.\" ~ Albert Einstein",
+  "\"Families are like fudge - mostly sweet with a few nuts.\" ~ Les Dawson",
+  "\"The only rock I know that stays steady, the only institution I know that works, is the family.\" ~ Lee Lacocca",
+  "\"The homemaker has the ultimate career. All other careers exist for one purpose only - and that is to support the ultimate career.\" ~ C.S. Lewis",
+  "\"Some people see things that are and ask 'Why?' Some people dream of things that never were and ask 'Why not?' Some people have to go to work and don't have time for all that.\" ~ George Carlin",
+  "\"True love comes quietly, without banners or flashing lights. If you hear bells, get your ears checked.\" ~ Erich Segal",
+  "\"The trouble with having an open mind, of course, is that people will insist on coming along and trying to put things in it.\" ~ Terry Pratchett",
+  "\"I was going to buy a copy of The Power of Positive Thinking, and then I thought: What good would that do?\" ~ Ronnie Shakes",
   "I’m so proud to be your daughter."
 ];
 
